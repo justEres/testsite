@@ -1,0 +1,18 @@
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}    
+
+
+.padded {
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
