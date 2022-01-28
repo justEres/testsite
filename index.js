@@ -6,15 +6,15 @@ function getVal() {
   }
 let counter = 0;
 function math() {
-    counter += 1;
+    counter += 1 ;
     document.getElementById("math").innerHTML = counter;
 }
-function count100() {
-    counter += 10;
+function count() {
+    counter += 100 ;
     document.getElementById("math").innerHTML = counter;
 }
 
 function reset() {
-    counter = 0;
+    counter = 0 ;
     document.getElementById("math").innerHTML = counter;
 }
