@@ -13,6 +13,10 @@ function count() {
     counter += 100 ;
     document.getElementById("math").innerHTML = counter;
 }
+function countMil() {
+    counter += 1000000 ;
+    document.getElementById("math").innerHTML = counter;
+}
 
 function reset() {
     counter = 0 ;
