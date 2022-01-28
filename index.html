@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chat</title>
-    <script src="index.js"></script>
+    <script src="index.js.temp"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,5 +26,32 @@
     <button onclick="count()">count 100</button>
     <button onclick="countMil()">count 1000000</button>
     <button onclick="reset()">reset</button>
+
+<script>
+function getVal() {
+    const val = document.querySelector('input').value;
+    
+    document.getElementById("try").innerHTML = val
+  }
+let counter = 0;
+function math() {
+    counter += 1 ;
+    document.getElementById("math").innerHTML = counter;
+}
+function count() {
+    counter += 100 ;
+    document.getElementById("math").innerHTML = counter;
+}
+function countMil() {
+    counter += 1000000 ;
+    document.getElementById("math").innerHTML = counter;
+}
+
+function reset() {
+    counter = 0 ;
+    document.getElementById("math").innerHTML = counter;
+}
+
+</script>
 </body>
 </html>
